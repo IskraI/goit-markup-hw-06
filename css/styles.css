@@ -713,18 +713,19 @@ button {
 
 /* -----modal-check ------- */
 
-.option {
-	display: block;
-	margin-left: 13px;
-	align-items: center;
-	margin-bottom: 30px;
-}
 .modal-check-field {
-	padding-left: 13px;
+	display: block;
+	margin-left: 40px;
+	margin-bottom: 30px;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 }
+/* .modal-check-field { */
+/* font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em; */
+/* } */
 .modal-check-input {
 	position: absolute;
 	clip: rect(0 0 0 0);
@@ -749,7 +750,7 @@ button {
 
 .modal-check-input:checked + .modal-check-box {
 	background-color: var(--accent-color);
-	/* background-image: url(../images/check.svg); */
+	background-image: url(../images/check.svg);
 	box-shadow: 0 0 0 2px var(--accent-color);
 }
 
