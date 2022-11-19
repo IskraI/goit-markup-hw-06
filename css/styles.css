@@ -666,13 +666,16 @@ button {
 .modal-form-group {
 	margin-bottom: 20px;
 }
-.modal-form-field {
+.modal-form-field,
+.modal-form-comment {
 	display: flex;
 	flex-direction: column;
 	gap: 4px;
 	margin-bottom: 10px;
 }
-
+.modal-form-comment {
+	margin-bottom: 20px;
+}
 .modal-form-data {
 	position: relative;
 }
@@ -702,6 +705,7 @@ button {
 }
 
 .modal-form-textarea {
+	display: block;
 	resize: none;
 	height: 120px;
 	padding: 12px 16px;
@@ -745,7 +749,7 @@ button {
 
 .modal-check-input:checked + .modal-check-box {
 	background-color: var(--accent-color);
-	background-image: url(../images/check.svg);
+	/* background-image: url(../images/check.svg); */
 	box-shadow: 0 0 0 2px var(--accent-color);
 }
 
