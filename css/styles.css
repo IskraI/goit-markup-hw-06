@@ -438,11 +438,10 @@ button {
 .footer-send {
 	margin-left: auto;
 }
-.footer-form {
+.footer-form-send {
 	display: flex;
 	gap: 12px;
-
-	/* align-items: center; */
+	align-items: center;
 }
 
 .footer-input {
@@ -674,7 +673,7 @@ button {
 	margin-bottom: 10px;
 }
 .modal-form-comment {
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 .modal-form-data {
 	position: relative;
@@ -714,8 +713,11 @@ button {
 /* -----modal-check ------- */
 
 .modal-check-field {
-	display: block;
-	margin-left: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 7px;
+	position: relative;
 	margin-bottom: 30px;
 	font-size: 14px;
 	line-height: 1.71;
@@ -735,8 +737,8 @@ button {
 }
 .modal-check-box {
 	position: absolute;
-	margin-top: 2.8px;
-	margin-left: -22px;
+	top: 2px;
+	left: 4px;
 	width: 16px;
 	height: 15px;
 	overflow: hidden;
